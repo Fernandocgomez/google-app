@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+    "name": "Hello world extention",
+    "version": "1.0",
+
+    "description": "A hello wolrd app",
+    "icons": {
+        "128": "icon.png"
+    },
+  
+
+    "browser_action": {
+        "default_title": "A hello wolrd app", 
+        "default_popup": "popup.html"
+    },
+    
+    "permissions": [
+        "http://*/*", 
+        "https://*/*"
+    ]
+  }
